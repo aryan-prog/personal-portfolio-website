@@ -4,8 +4,7 @@ import logo from '../assets/img/logo.svg';
 import linkedin from '../assets/img/linkedin.svg';
 import github from '../assets/img/github.svg';
 import mail from '../assets/img/mail.svg';
-import { HashLink } from 'react-router-hash-link';
-import {BrowserRouter as Router} from "react-router-dom";
+// import {BrowserRouter as Router} from "react-router-dom";
 
 export const NavBar = () => {
 
@@ -31,8 +30,7 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+          <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
@@ -52,14 +50,12 @@ export const NavBar = () => {
                 <a href="https://github.com/aryan-prog" target='_blank' rel='noopener noreferrer'><img src={github} alt="github" /></a>
                 <a href="mailto:seth.aryan605@gmail.com" target='_blank' rel='noopener noreferrer'><img src={mail} alt="mail" /></a>
               </div>
-              <HashLink to='#connect'>
-              <a href="#" target='_blank' rel='noopener noreferrer'><button className="vvd"><span>Let’s Connect</span></button></a>
-              </HashLink>
+              <button className="vvd"><span>Let’s Connect</span></button>
             </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
+    
   )
 }
 
