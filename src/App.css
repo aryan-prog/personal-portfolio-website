@@ -452,11 +452,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: #fff;
 }
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
+  color: #fff;
   letter-spacing: 0.8px;
 }
 .background-image-right {
@@ -470,7 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 10px 0px 50px 0px;
+  padding: 10px 0px 165px 0px;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
