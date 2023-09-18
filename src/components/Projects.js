@@ -12,7 +12,7 @@ export const Projects = () => {
     {
       title: "AI Summarizer",
       imgUrl: projImg3,
-      TechStack: "ReactJS, Javascript,RapidAPI,Redux Toolkit",
+      TechStack: "ReactJS, Javascript, Tailwind CSS,RapidAPI,Redux Toolkit",
       link: "https://ai-summarizer-23.netlify.app/"
     },
     {

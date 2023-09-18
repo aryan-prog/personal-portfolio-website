@@ -67,6 +67,10 @@ export const Skills = () => {
                                 <img src={meter2} alt="skill2" />
                                 <h5>Tailwind CSS</h5>
                             </div>
+                            <div className="item">
+                                <img src={meter2} alt="skill2" />
+                                <h5>Redux Toolkit</h5>
+                            </div>
                         </Carousel>
                     </div>
                 </div>
