@@ -52,8 +52,8 @@ export const Banner = () => {
             <div className="animate__animated animate__fadeIn">
               <span className="tagline">Welcome to my Portfolio</span>
               <h1>{`Hi! I'm Aryan Seth`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer", "Software Engineer"]'><span className="wrap">{text}</span></span></h1>
-              <p>I'm a frontend developer with expertise in C/C++, HTML, CSS, and JavaScript. I've honed my skills in ReactJS, creating interactive and user-friendly websites. Now, I'm exploring Next.js and TypeScript to elevate my capabilities. My portfolio features diverse projects reflecting my commitment to crafting visually stunning and responsive web solutions. Join me on this journey of pushing boundaries and creating exceptional user experiences. Let's build something amazing together!</p>
-              <a href="http://surl.li/lkxpc" target='_blank' rel='noopener noreferrer'> Download Resume <ArrowRightCircle size={25} /></a>
+              <p>I'm a frontend developer with expertise in C/C++, HTML, CSS, and JavaScript. I've honed my skills in ReactJS and NextJS, creating interactive and user-friendly websites. Now, I'm exploring Next.js and TypeScript to elevate my capabilities. My portfolio features diverse projects reflecting my commitment to crafting visually stunning and responsive web solutions. Join me on this journey of pushing boundaries and creating exceptional user experiences. Let's build something amazing together!</p>
+              <a href="https://drive.google.com/file/d/1Pri37t87Tho6jPaB8DDt1Gtj2Uc9eety/view?usp=sharing" target='_blank' rel='noopener noreferrer'> Download Resume <ArrowRightCircle size={25} /></a>
             </div>
           </Col>
           <Col xs={12} md={6} xl={5}>

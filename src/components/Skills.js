@@ -36,20 +36,24 @@ export const Skills = () => {
                         <p>On my personal portfolio website, I showcase my diverse range of technical skills, acquired through hands-on experience <br></br>to demonstrate my proficiency in utilizing cutting-edge technology and tools. </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="skill1" />
-                                <h5>HTML</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="skill2" />
-                                <h5>CSS</h5>
-                            </div>
-                            <div className="item">
                                 <img src={meter3} alt="skill3" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="skill4" />
                                 <h5>ReactJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="skill2" />
+                                <h5>NextJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="skill1" />
+                                <h5>HTML</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="skill2" />
+                                <h5>CSS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="skill4" />
@@ -61,7 +65,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="skill2" />
-                                <h5>Bootstrap</h5>
+                                <h5>Bootstrap / Material-UI</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="skill2" />
