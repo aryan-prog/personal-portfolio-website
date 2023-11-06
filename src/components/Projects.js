@@ -37,13 +37,6 @@ export const Projects = () => {
   ];
   const experience = [
     {
-      title: "Web Developer",
-      company: "Start From Scratch",
-      imgUrl: expImg1,
-      TechStack: "HTML, CSS, Javascript, ReactJS",
-      link: "https://sfslive.com/",
-    },
-    {
       title: "Frontend Developer",
       company: "Sharpe Labs",
       imgUrl: expImg2,
@@ -51,6 +44,14 @@ export const Projects = () => {
         "ReactJS, NextJS, Javascript, CSS, Firebase, Material-UI, HighCharts",
       link: "https://www.sharpe.ai/",
     },
+    {
+      title: "Web Developer",
+      company: "Start From Scratch",
+      imgUrl: expImg1,
+      TechStack: "HTML, CSS, Javascript, ReactJS",
+      link: "https://sfslive.com/",
+    },
+    
   ];
 
   return (
