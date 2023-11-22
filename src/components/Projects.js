@@ -4,8 +4,10 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
 import expImg1 from "../assets/img/exp-img1.png";
 import expImg2 from "../assets/img/exp-img2.png";
+import expImg3 from "../assets/img/exp-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
@@ -34,8 +36,21 @@ export const Projects = () => {
       TechStack: "HTML, CSS, Javascript, ReactJS, OpenWeather API",
       link: "https://weather-app-seth.netlify.app/",
     },
+    {
+      title: "Quiz App",
+      imgUrl: projImg5,
+      TechStack: "HTML, CSS, Javascript, ReactJS",
+      link: "https://quiz-app-125.netlify.app/",
+    },
   ];
   const experience = [
+    {
+      title: "Freelance Developer",
+      company: "XGPT",
+      imgUrl: expImg3,
+      TechStack: "ReactJS, Javascript, CSS",
+      link: "https://www.chatboat.co/",
+    },
     {
       title: "Frontend Developer",
       company: "Sharpe Labs",
@@ -51,7 +66,6 @@ export const Projects = () => {
       TechStack: "HTML, CSS, Javascript, ReactJS",
       link: "https://sfslive.com/",
     },
-    
   ];
 
   return (
