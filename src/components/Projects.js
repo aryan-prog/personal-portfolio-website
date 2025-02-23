@@ -8,6 +8,7 @@ import projImg5 from "../assets/img/project-img5.png";
 import expImg1 from "../assets/img/exp-img1.png";
 import expImg2 from "../assets/img/exp-img2.png";
 import expImg3 from "../assets/img/exp-img3.png";
+import expImg4 from "../assets/img/exp-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
@@ -44,6 +45,13 @@ export const Projects = () => {
     },
   ];
   const experience = [
+    {
+      title: "Software Engineer",
+      company: "Samsung R&D Institute - Delhi",
+      imgUrl: expImg4,
+      TechStack: "C++, EFL, Redux, WebAccessibility(ARIA), ReactJS, Javascript, CSS, Jest",
+      link: "https://research.samsung.com/sri-d",
+    },
     {
       title: "Freelance Developer",
       company: "XGPT",
